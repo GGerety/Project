@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css?family=Lobster');
+
+
+body {
+  background-color: papayawhip;
+  line-height: 1.2;
+  font-family: 'Lobster', cursive;
+  color: gray;
+
+}
+
+header{
+  background-color: white;
+  text-align: center;
+  width: 100%;
+}
+
+h5 a {
+  font-size: 24px;
+  text-decoration: none;
+  color: gray;
+
+}
+
+h5 a:hover{
+  color: black;
+  text-shadow: 0px 0px 1px #000000;
+}
+
+header h1 a{
+  height: 75px;
+  padding: 0 20px;
+  font-size: 48px;
+  text-decoration: none;
+  color: gray;
+  text-shadow: 2px 2px 4px #000000;
+}
+
+header p{
+  padding-top: 20px;
+  padding-bottom: 10px;
+  font-size: 24px;
+
+}
+
+main {
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+main .container > section {
+  width: 600px;
+  min-height: 700px;
+  background-color: white;
+  float: right;
+  border: 1px gray solid;
+  border-radius: 5px;
+}
+
+main aside {
+  width: 200px;
+  min-height: 700px;
+  background-color: white;
+  margin-right: 50px;
+  float: right;
+  border: 1px gray solid;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.container .time {
+  min-height: 400px;
+}
+
+.time h2{
+  padding-bottom: 20px;
+}
+.time p {
+  font-size: 12px;
+  margin-bottom: 20px;
+}
+
+.container h2 {
+  font-size: 24px;
+  text-align: center;
+  text-decoration: underline;
+  color: black;
+  margin: 10px 0;
+}
+
+.container h3 {
+  font-size: 20px;
+  text-align: center;
+  text-decoration: underline;
+  color: black;
+  margin: 5px 0;
+}
+
+.first{
+  font-size: 20px;
+  font-weight: 400;
+  color: black;
+}
+
+.recipe{ display: none}
+
+
+
+footer {
+  background-color: white;
+  font-size: 12px;
+  margin-top: 40px;
+  min-height: 80px;
+  width: 100%;
+  line-height: 100px;
+}
+
+footer ul {
+padding: 0;
+text-align: center;
+
+}
+
+footer ul li {
+  color: #999;
+  text-transform: uppercase;
+  font-weight: 700;
+  margin-right: 10px;
+  line-height: 1.5;
+  display: inline;
+}
+
+
+footer ul li a {
+  color: #003569;
+}
+
+.clear {
+  clear:both;
+}
+
+.container p {
+  text-align: center;
+  font-size: 48px;
+}
+
+.container .time p{
+  font-size: 24px;
+}
+
+.container section ol li::first-letter{
+  font-size: 40px;
+  color: black;
+}
+
+
+@media screen
+  and (min-device-width: 200px)
+  and (max-device-width: 600px)
+  and (-webkit-min-device-pixel-ratio: 1) {
+    main {
+      width: 90%;
+    }
+    .container{
+      width: 100%
+    }
+  
+  }
